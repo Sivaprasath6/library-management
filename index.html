@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="css/style.css"></link>
+    <script src="../../js/sonna.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *.tab {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        /* Style the tab */
+        .tab {
+          float: left;
+
+          background-color: #a5f7a8;
+          width: 30%;
+          height: 300px;
+          margin: 0em 1em;
+        }
+        .tabcontent p {
+          padding: 6px 0px;
+    font-size: 19px;
+    font-weight: 900;
+    border: 2px solid #242222;
+    text-align: center;
+    width: 20%;
+    margin: 85px 19em;
+    background-color: #29C72E;
+    
+}
+    
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+          display: block;
+          background-color: inherit;
+          color: black;
+          padding: 22px 16px;
+          width: 100%;
+        
+          outline: none;
+          text-align: left;
+          cursor: pointer;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+        
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color:hwb(122 41% 19%);
+        }
+        
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+          background-color: hsl(122, 66%, 47%);
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          float: left;
+         background-color: #a5f7a8;
+          width: none;
+          border-left: none;
+          height: 300px;
+          margin: 0em -1em;
+        }
+        </style>
+         
+    <title>Library</title>
+</head>
+<div class="header">
+    <div class="logo">
+        <img src="images/logo.png"></img>
+        </div>
+        <div class="name"><h2>SNR
+            Library</h2>
+        </div>
+         <div class="headerright"> 
+            <ul class="list1">
+            <li><a href="#herosectionid">Home</a></li>
+            <li><a href="#aboutsectionid"> About </a></li>
+            <li> <a href="#Booksectionid">Booksection</a></li>
+            <li> <a href="#formsectionid">Form</a></li>
+            <li> <a href="#contactsectionid">Contact</a></li>
+          </ul>
+        </div>
+       </div>
+       <!-----headerends-->
+       <div class="herosection" id="herosectionid">
+    <h4> knowledge is free at the library,just bring your own container. </h4>
+
+       </div>
+       <!----herosectionends-->
+       <div class="aboutsection"  id="aboutsectionid">
+        <div class="about2">
+            <h2>ABOUT US</h2>
+            <hr class="line1"></hr>
+            <p>libraries basic needs of those who wants to become powerfull in their thoughts ustainable development and change are matters of survival for libraries. This study assesses the opinions of the staff of Greek Special Libraries concerning effective participation in the adoption and implementation of organizational change in order to achieve sustainable development. The research investigated attitudes concerning the content and type of the change, the change process, leadership support together with the individual characteristics of the employees. In addition, the importance of lifelong learning and staff development in special libraries were examined in achieving organizational change. Survey findings revealed that employees must be convinced that the organizational changes should be beneficial for them and change agents are committed to adoption of organizational changes. </p>
+
+       </div>
+       </div>
+       <!---aboutends-->
+       <div class="Booksection" id="Booksectionid">
+        <h2>Booksection </h2>
+        <hr class="line2"></hr>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Tamil')" id="defaultOpen">Tamil </button>
+            <button class="tablinks" onclick="openCity(event, 'English')">English</button>
+            <button class="tablinks" onclick="openCity(event, 'Other languages')">Other languages</button>
+        </div>
+        <div id="Tamil" class="tabcontent">
+            
+            <p>Cabin 1 and 4.</p>
+          </div>
+          
+          <div id="English" class="tabcontent">
+         
+            <p>Cabin 2 and 3.</p> 
+          </div>
+          
+          <div id="Other languages" class="tabcontent">
+           
+            <p>Cabin 1 and 3.</p>
+          </div>
+          
+       
+       </div>
+       <!-----tabsectionends-->
+       <div class="formsection" id="formsectionid">
+        <h2>GET IN TOUCH</h2>
+        <hr class="line4"></hr>
+        <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+        <form class="form1">
+         <input type="text" id="fname" name="fname" placeholder="Name">
+        </form>
+        <form class="form2">
+        <input type="email" id="email" name="email" placeholder="Email">
+        </form>
+        <form class="message">
+        <input type="message" id="message" name="message" placeholder="Message">
+        </form>
+        <div class="gender1">
+          <input type ="radio"  name="gender" value="male"> Male 
+        <input type="radio" name="gender" value="female"> Female
+        </div>
+        
+
+        <button class="btn cta2">SUBMIT</button>
+        </div>
+        <!----formends-->
+        <div class="footersection" id="contactsectionid">
+          <div class="contactleft">
+             <h3>Contact Info</h3>
+            <i class="fa fa-map-marker"></i> 
+             <p>
+               Dubai kuruku santhu,<br> chennai, <br>
+               600018
+  
+             </p>
+            <ul class="contactsection">
+              <li><i class="fa fa-facebook-f"></i></li>
+              <li><i class="fa fa-twitter"></i></li>
+              <li><i class="fa fa-instagram"></i></li>
+            </ul></div>
+         
+         <div class="contactright">
+          <p><i class="fa fa-phone"></i>    <span>  012-543-6789</span> <br>
+            <i class="fa fa-envelope"></i>  <span>  www.snrlibrary@email.com</span></p>
+           
+           
+        
+         
+        
+
+         </div>
+          
+
+        </div>
+        <!---footerends--->
+        
+       
+        <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+          
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+          </script>  
+        
+</body>
+</html>

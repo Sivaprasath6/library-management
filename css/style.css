@@ -1,0 +1,296 @@
+body{margin: auto; padding: auto;}
+.header{
+    float: left;
+    width: 100%;
+    background: rgba(58, 219, 64, 1);
+    position: fixed;
+
+}
+.logo{
+    float: left;
+    width: 20%;
+
+}
+.logo img{
+    float: left;
+    width: 42%;
+    padding: 0.5em 2em;
+}
+.name{
+    float: left;
+    width:10%;
+    margin: 1px -7em;
+}
+.name h2{
+        font-family: 'Gideon Roman',cursive;
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+   
+}
+.headerright{
+    float: right;
+    width: 70%;
+    text-align: center;
+    margin: -6em 7em;
+}
+.list1 li{
+        display: inline;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;	
+margin:0em 2em;
+color: black;
+}
+.list1{
+    margin: oem 1em;
+}
+.list1 a{
+    color: black;
+    text-decoration: none;
+}
+/*---headerends****/
+.herosection{
+    float: left;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/banner2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding: 20em 0em;;
+}
+.herosection h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+   text-shadow: 8px 3px black;
+   margin: 0em 0em;
+}
+/****herosectionends**/
+.aboutsection{
+    float: left;
+    width: 100%;
+    background-color:hsl(123deg 100% 89%);
+  
+    margin: -1em 0em;
+    display: inline;
+
+}
+.aboutsection h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    color: #2b83c1;
+}
+.about2{
+margin: 10em 0em;
+margin-bottom: 10em;
+}
+.line1{
+    height: 3px;
+    width: 90px;
+    background-color:gray;
+   
+    margin-top: -1.5em;
+}
+.aboutsection p{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 1em 4em;
+    text-align: center;
+    line-height: 28px;
+    color: #054674;
+   
+
+}
+/*****aboutends****/
+.Booksection{
+    float: left;
+    width: 100%;
+    background-color: rgb(165 247 168);
+    padding: 2em 0em;
+    padding-bottom: 4em;
+}
+.Booksection h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    margin: 3em 0em;
+}
+.line2{
+    height: 3px;
+    width: 90px;
+    background-color:gray;
+   
+    margin-top: -6em;
+    margin-bottom: 4em;
+}
+/***booksectionends***/
+.formsection{
+    float: left;
+    width: 100%;
+    background-color: #c7ffca;
+    padding: 8em 0em;
+    padding-bottom: 0em;
+
+}
+.formsection p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#ff843bd9;
+    text-align: center;
+}
+.formsection h2{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 36px;
+text-transform:uppercase;
+color:#ed7208;
+text-align: center;
+}
+.line4{
+	height: 2px;
+    width: 60px;
+    background: rgb(155 132 112);
+    margin: 2em 38em;
+    margin-top: -1em;
+    padding: 0.5px 2em;
+}
+.form1{
+	padding:1em 20em
+}
+.form1 input {	float:left;
+  width: 50%;
+  padding:7px;
+  font-size: 16px;
+  margin: 0em -2em;
+  
+}
+.form2{
+	padding:2em 0em;
+}
+.form2 input {
+    float: right;
+    width: 28%;
+    padding: 7px;
+    font-size: 16px;
+    margin: -48px 17em
+}
+.message{
+margin:4em 0em;
+margin-bottom:7em;
+}
+.message input{
+	float: left;
+    width: 28%;
+    padding: 7px;
+    margin: -3em 30em;
+    font-size: 16px;
+}
+   .gender1{
+  
+    text-align: center;
+    padding: 0em 0em;
+    font-family: sans-serif;
+    margin: 0em 0em;
+}
+    .btn {
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+}
+.cta2{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  background-color:#ff7600;;
+  color: black; /* Gray */ 
+
+  border: 2px solid rgb(0, 0, 0);
+    padding: 11px 25px;
+    letter-spacing: 1px;
+    margin:3em 44em;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+} .cta2:hover {background: #c4854e;}
+/***fornemds***/
+.footersection{
+    float: left;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10em;
+}
+.contactleft{
+    float: left;
+    width:84em;
+}
+.contactleft h3{
+     font-family: 'Raleway', sans-serif;;
+     font-weight: 500;
+     font-size: 30px;
+     text-transform:uppercase;
+     color:white;
+     text-align: center;
+     margin-top: 2em;
+}
+.contactleft i{
+    
+    font-size: 15px;
+    width: 59px;
+    margin: 1em 10em;
+    color: white;
+
+}
+.contactleft p{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+    color: white;
+    margin: -29px 165px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.contactsection{
+    margin: -2em 35em;
+    padding: auto;
+}
+.contactsection li{
+    display: inline;
+    color: white;
+}
+.contactsection i{
+    padding: 0em 0em;
+    margin: 0em 0em;
+    font-size: 22px;
+}
+.contactright {
+    float: right;
+    width: 16em;
+    margin: -24px 6em;
+}
+.contactright p{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+    color: white;
+
+    
+    font-size: 15px;
+
+}
+.contactright i{
+    color: white;
+    display: inline;
+    font-size: 13px;
+   
+}
